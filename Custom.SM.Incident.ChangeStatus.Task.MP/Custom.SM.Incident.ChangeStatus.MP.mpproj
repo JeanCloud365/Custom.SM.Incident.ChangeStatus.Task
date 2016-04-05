@@ -18,7 +18,7 @@
     <Company>FCS</Company>
     <Copyright>Copyright (c) FCS. All rights reserved.</Copyright>
     <DelaySigning>False</DelaySigning>
-    <AssemblyOriginatorKeyFile>C:\Users\jvmeir\OneDrive\Ferranti Computer Systems\SCSM\Custom\VisualStudio\Custom.OfficeToAssignmentGroup\Custom.SM.OfficeToAssignmentGroup.MP\PairKey.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>PairKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -66,12 +66,24 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CustomSM.OfficeToAssignmentGroup.Form\Custom.SM.Incident.ChangeStatus.UI.csproj">
+    <ProjectReference Include="..\Custom.SM.Incident.ChangeStatus.Task.Handler\Custom.SM.Incident.ChangeStatus.UI.csproj">
       <Name>Custom.SM.Incident.ChangeStatus.UI</Name>
       <Project>{3a7c3319-6d9c-4688-abb0-93052991c7c5}</Project>
       <Private>True</Private>
       <PackageToBundle>True</PackageToBundle>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MPB" />
+    <Folder Include="Seal" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MPB\Custom.SM.Incident.ChangeStatus.MP.mpb">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Seal\PairKey.snk">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VSAC\Microsoft.SystemCenter.OperationsManager.targets" />
 </Project>
