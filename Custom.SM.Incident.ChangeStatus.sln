@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D4B43EB3-688B-4EEE-86BD-088F0B28ABB3}") = "Custom.SM.Incident.ChangeStatus.MP", "Custom.SM.OfficeToAssignmentGroup.MP\Custom.SM.Incident.ChangeStatus.MP.mpproj", "{779D14BA-421E-468B-9743-CDFF2E71BC54}"
+Project("{D4B43EB3-688B-4EEE-86BD-088F0B28ABB3}") = "Custom.SM.Incident.ChangeStatus.MP", "Custom.SM.Incident.ChangeStatus.Task.MP\Custom.SM.Incident.ChangeStatus.MP.mpproj", "{779D14BA-421E-468B-9743-CDFF2E71BC54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom.SM.Incident.ChangeStatus.UI", "CustomSM.OfficeToAssignmentGroup.Form\Custom.SM.Incident.ChangeStatus.UI.csproj", "{3A7C3319-6D9C-4688-ABB0-93052991C7C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom.SM.Incident.ChangeStatus.UI", "Custom.SM.Incident.ChangeStatus.Task.Handler\Custom.SM.Incident.ChangeStatus.UI.csproj", "{3A7C3319-6D9C-4688-ABB0-93052991C7C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
